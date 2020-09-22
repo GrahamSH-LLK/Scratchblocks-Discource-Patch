@@ -1,5 +1,5 @@
 function scratchblocksPatch(state, silent) {
-md.inline.bbcode.ruler.push('underline', {
+md.inline.bbcode.ruler.push('scratchblocks', {
     tag: 'scratchblocks',
     wrap: 'p'
 });
